@@ -21,7 +21,9 @@ The above criteria is met when the user follows the instructions starting with i
 
 # Sample & Walkthrough Video
 
-https://drive.google.com/file/d/1Co2nF5awy0nsIpUbCB2wtkFqOJKIDI6S/view?usp=sharing
+
+https://user-images.githubusercontent.com/105176171/179374099-9aba7c6e-be60-4e3d-8bdc-dfeaac3935fd.mp4
+
 
 <img width="1389" alt="image" src="https://user-images.githubusercontent.com/105176171/179372460-048c4898-a057-4fac-bae6-a994ce429967.png">
 
