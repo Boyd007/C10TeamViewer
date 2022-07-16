@@ -23,6 +23,10 @@ The above criteria is met when the user follows the instructions starting with i
 
 <img width="1389" alt="image" src="https://user-images.githubusercontent.com/105176171/179372460-048c4898-a057-4fac-bae6-a994ce429967.png">
 
+Code sample from video output.
+
+<img width="1393" alt="image" src="https://user-images.githubusercontent.com/105176171/179373956-1477cfd9-7c81-4c7e-b619-b5fd53b8159f.png">
+
 # Technologies
 
 * HTML
@@ -36,11 +40,11 @@ The above criteria is met when the user follows the instructions starting with i
 
 https://github.com/Boyd007/C10TeamViewer
 
-# ReadMe Sample
-
-
 # Links
 
-Google drive link with video, screenshots and readme.
+Google drive link with video and screenshot:
+
+https://drive.google.com/drive/folders/1WAgLdIUGJcHaMritgFDpzRZJKpvoreZ3?usp=sharing
+
 
 
