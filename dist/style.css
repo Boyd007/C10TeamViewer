@@ -1,13 +1,14 @@
 :ROOT {
-    --ivory: #F9F7F4;
-    --nude: #EAE3D9;
-    --charcoal: #474747;
+    --purple: #280137;
+    --grey: #50C878;
+    --gunmetal: #FFE77AFF;
+    ;
 }
 
 body {
     margin: 0;
-    font-family: 'Libre Baskerville', serif;
-    background-color: var(--ivory);
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: var(--purple);
 }
 
 #container {
@@ -18,15 +19,15 @@ header {
     margin-bottom: 25px;
     padding: 40px;
     text-align: center;
-    background-color: var(--nude);
+    background-color: var(--grey);
 }
 
 header h1 {
     margin: 0;
-    font-size: 40px;
-    font-style: italic;
+    font-size: 60px;
+    font-style: bold;
     letter-spacing: 2px;
-    color: var(--charcoal);
+    color: var(--gunmetal);
 }
 
 main {
@@ -42,8 +43,8 @@ main .card {
 
 main .card .name-title {
     padding: 10px;
-    color: var(--nude);
-    background-color: var(--charcoal);
+    color: var(--grey);
+    background-color: var(--gunmetal);
 }
 
 main .card .name-title h2 {
@@ -54,24 +55,24 @@ main .card .name-title h2 {
 main .card .name-title h4 {
     margin: 0 0 15px 0;
     font-weight: 100;
-    font-style: italic;
+    font-style: bold;
     letter-spacing: 2px;
 }
 
 main .card .additional-info {
     padding: 10px;
-    color: var(--charcoal);
-    background-color: var(--nude);
+    color: var(--gunmetal);
+    background-color: var(--grey);
 }
 
 main .card .additional-info .info-one, main .card .additional-info .info-two, main .card .additional-info .info-three {
     padding: 10px;
     text-align: left;
-    background-color: var(--ivory);
+    background-color: var(--purple);
     border-radius: 3px;
 }
 
 main .card .additional-info a {
     text-decoration: none;
-    color: var(--charcoal);
+    color: var(--gunmetal);
 }

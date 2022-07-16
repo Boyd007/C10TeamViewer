@@ -1,6 +1,5 @@
-// FUNCTION TO GENERATE MANAGER TEAM CARD
 function manager(data) {
-    return `<div class="card">
+  return `<div class="card">
                 <div class="name-title">
                     <h2>${data[0].name}</h2>
                     <h4><i class="fa fa-coffee aria-hidden="true""></i>&nbsp;Manager</h4>
@@ -10,15 +9,14 @@ function manager(data) {
                     <p class="info-two">Email: <a href="mailto:${data[0].email}">${data[0].email}</a></p>
                     <p class="info-three">Extension: ${data[0].officeNumber}</p>
                 </div>
-            </div>`
+            </div>`;
 }
 
-// FUNCTION TO GENERATE ENGINEER TEAM CARD(S)
 function newEngineer(data) {
-    let engineerMember = [];
+  let engineerMember = [];
 
-    data.forEach(engineer => {
-        engineerMember.push(`<div class="card">
+  data.forEach((engineer) => {
+    engineerMember.push(`<div class="card">
         <div class="name-title">
             <h2>${engineer.name}</h2>
             <h4><i class="fa fa-cogs"></i>&nbsp;Engineer</h4>
@@ -29,16 +27,15 @@ function newEngineer(data) {
             <p class="info-three">GitHub: <a href="https://www.github.com/${engineer.gitHub}">${engineer.gitHub}</a></p>
         </div>
     </div>`);
-    });
-    return engineerMember.join("");
+  });
+  return engineerMember.join("");
 }
 
-// FUNCTION TO GENERATE INTERN TEAM CARD(S)
 function newIntern(data) {
-    let internMember = [];
+  let internMember = [];
 
-    data.forEach(intern => {
-        internMember.push( `<div class="card">                
+  data.forEach((intern) => {
+    internMember.push(`<div class="card">                
         <div class="name-title">
             <h2>${intern.name}</h2>
             <h4><i class="fa fa-graduation-cap"></i>&nbspIntern</h4>
@@ -49,13 +46,12 @@ function newIntern(data) {
             <p class="info-three">School: ${intern.school}</p>
         </div>
     </div>`);
-    });
-    return internMember.join("");
+  });
+  return internMember.join("");
 }
 
-// MAIN FUNCTION TO GENERATE HTML DOCUMENT
 function generateSite(data) {
-    return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -65,7 +61,7 @@ function generateSite(data) {
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
-        <title>Your Team!</title>
+        <title>Your Team Roster</title>
     </head>
     <body>
         
@@ -74,16 +70,17 @@ function generateSite(data) {
             <header><h1>Your Team</h1></header>
 
             <main>
-            ${manager(data.filter(member => member.getRole() === "Manager"))}
-            ${newEngineer(data.filter(member => member.getRole() === "Engineer"))}
-            ${newIntern(data.filter(member => member.getRole() === "Intern"))}
+            ${manager(data.filter((member) => member.getRole() === "Manager"))}
+            ${newEngineer(
+              data.filter((member) => member.getRole() === "Engineer")
+            )}
+            ${newIntern(data.filter((member) => member.getRole() === "Intern"))}
             </main>
 
         </div>
 
     </body>
-    </html>`
+    </html>`;
 }
 
-// EXPORTING
 module.exports = generateSite;
