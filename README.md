@@ -1,4 +1,4 @@
-## C10TeamViewer
+# C10TeamViewer
 
 This application allows you to input various data points to compile a rough roster of your 'team'.  This includes management, an engineer and an intern.
 
