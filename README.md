@@ -12,18 +12,18 @@ This application allows the user to generate an HTML team roster that contains b
 
 Clone the Github repository and proceed to run node index.js and follow the prompts to generate a quality team viewer page in HTML. 
 
-## Usage
+# Usage
 
 <img width="798" alt="image" src="https://user-images.githubusercontent.com/105176171/179372430-36da7093-d2e8-446a-8f04-1b7683df39bc.png">
 
 
 The above criteria is met when the user follows the instructions starting with initializing the application with node index.js
 
-## Sample
+# Sample
 
 <img width="1389" alt="image" src="https://user-images.githubusercontent.com/105176171/179372460-048c4898-a057-4fac-bae6-a994ce429967.png">
 
-## Technologies
+# Technologies
 
 * HTML
 * CSS
@@ -32,11 +32,11 @@ The above criteria is met when the user follows the instructions starting with i
 * Inquirer 
 * Npm
 
-## GitHub
+# GitHub
 
 https://github.com/Boyd007/C10TeamViewer
 
-## ReadMe Sample
+# ReadMe Sample
 
 
 # Links
