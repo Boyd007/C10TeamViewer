@@ -19,7 +19,9 @@ Clone the Github repository and proceed to run node index.js and follow the prom
 
 The above criteria is met when the user follows the instructions starting with initializing the application with node index.js
 
-# Sample
+# Sample & Walkthrough Video
+
+https://drive.google.com/file/d/1Co2nF5awy0nsIpUbCB2wtkFqOJKIDI6S/view?usp=sharing
 
 <img width="1389" alt="image" src="https://user-images.githubusercontent.com/105176171/179372460-048c4898-a057-4fac-bae6-a994ce429967.png">
 
