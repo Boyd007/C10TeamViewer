@@ -1,0 +1,77 @@
+:ROOT {
+    --ivory: #F9F7F4;
+    --nude: #EAE3D9;
+    --charcoal: #474747;
+}
+
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: var(--ivory);
+}
+
+#container {
+    height: fit-content;
+}
+
+header {
+    margin-bottom: 25px;
+    padding: 40px;
+    text-align: center;
+    background-color: var(--nude);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: var(--charcoal);
+}
+
+main {
+    padding: 25px;
+    text-align: center;
+}
+
+main .card {
+    display: inline-block;
+    margin: 5px;
+    min-width: 250px;
+}
+
+main .card .name-title {
+    padding: 10px;
+    color: var(--nude);
+    background-color: var(--charcoal);
+}
+
+main .card .name-title h2 {
+    margin: 15px 0 10px 0;
+    text-transform: uppercase;
+}
+
+main .card .name-title h4 {
+    margin: 0 0 15px 0;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+main .card .additional-info {
+    padding: 10px;
+    color: var(--charcoal);
+    background-color: var(--nude);
+}
+
+main .card .additional-info .info-one, main .card .additional-info .info-two, main .card .additional-info .info-three {
+    padding: 10px;
+    text-align: left;
+    background-color: var(--ivory);
+    border-radius: 3px;
+}
+
+main .card .additional-info a {
+    text-decoration: none;
+    color: var(--charcoal);
+}
